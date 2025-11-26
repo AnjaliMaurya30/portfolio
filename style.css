@@ -108,17 +108,33 @@ nav a:hover {
     color: #f6efff;
 }
 
-.hero-text h1 {
-    color: #3d2660; /* darker heading */
+
+/* 🔆 LIGHT MODE */
+body:not(.dark) .hero-text h1 {
+    color: #3d2660;
 }
 
-.hero-text h1 span {
-    color: #5d3a9b; /* stronger highlight */
+body:not(.dark) .hero-text h1 span {
+    color: #5d3a9b;
 }
 
-.hero-text .bio {
-    color: #4b3a80; /* readable paragraph color */
+body:not(.dark) .hero-text .bio {
+    color: #4b3a80;
 }
+
+/* 🌙 DARK MODE */
+body.dark .hero-text h1 {
+    color: #f5ecff;
+}
+
+body.dark .hero-text h1 span {
+    color: #e8d9ff;
+}
+
+body.dark .hero-text .bio {
+    color: #d4c7ff;
+}
+
 .resume-btn {
     display: inline-block;
     margin-top: 18px;
@@ -503,4 +519,5 @@ body.dark .theme-toggle {
         right: 10px;
     }
 }
+
 
