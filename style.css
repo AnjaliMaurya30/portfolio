@@ -108,8 +108,7 @@ nav a:hover {
     color: #f6efff;
 }
 
-
-/* 🔆 LIGHT MODE */
+/* 🔆 LIGHT MODE HERO TEXT */
 body:not(.dark) .hero-text h1 {
     color: #3d2660;
 }
@@ -122,17 +121,18 @@ body:not(.dark) .hero-text .bio {
     color: #4b3a80;
 }
 
-/* 🌙 DARK MODE */
-body.dark .hero-text h1 {
-    color: #f5ecff;
-}
-
+/* 🌙 DARK MODE HERO TEXT */
+body.dark .hero-text h1,
 body.dark .hero-text h1 span {
-    color: #e8d9ff;
+    color: #ffffff;
 }
 
 body.dark .hero-text .bio {
-    color: #d4c7ff;
+    color: #e6ddff;
+}
+
+body.dark .tagline {
+    color: #f2e9ff;
 }
 
 .resume-btn {
@@ -348,7 +348,7 @@ body.dark header {
 }
 
 body.dark .hero {
-    background: #2a1844;
+    background: #1b1030;
 }
 
 body.dark .info-box {
@@ -519,5 +519,6 @@ body.dark .theme-toggle {
         right: 10px;
     }
 }
+
 
 
