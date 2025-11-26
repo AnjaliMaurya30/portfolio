@@ -109,22 +109,16 @@ nav a:hover {
 }
 
 .hero-text h1 {
-    font-size: 34px;
-    font-weight: 700;
-    color: white;
-    margin: 8px 0 10px;
+    color: #3d2660; /* darker heading */
 }
 
 .hero-text h1 span {
-    color: #ffeefc;
+    color: #5d3a9b; /* stronger highlight */
 }
 
 .hero-text .bio {
-    font-size: 15px;
-    color: #f5f5f5;
-    line-height: 1.6;
+    color: #4b3a80; /* readable paragraph color */
 }
-
 .resume-btn {
     display: inline-block;
     margin-top: 18px;
@@ -509,3 +503,4 @@ body.dark .theme-toggle {
         right: 10px;
     }
 }
+
